@@ -2,8 +2,38 @@
  * YOUR CODE HERE *
  ******************/
 
+ let greeting = 'Hello';
+ let sum = 0;
+ let prod = 0;
 
+ function greet(multiply) {
+  greeting = 'Hello ' + multiply;
+ }
 
+ function sumOfTwo(modulus1, modulus2) {
+  sum = modulus1 + modulus2;
+ }
+
+ function multiply(opp1, opp2, opp3) {
+  prod = opp1 * opp2 * opp3;
+ }
+
+ function returnWhatISay(strYells) {
+  return strYells;
+ }
+
+ function sayHi(weirdRepo) {
+  let returnValue = 'Colin';
+  return 'Hello ' + weirdRepo + '!';
+ }
+
+ function divide(confusingTests1, confusingTests2) {
+   return confusingTests1 / confusingTests2;
+ }
+
+ function remainder(ImDone1, ImDone2) {
+  return ImDone1 % ImDone2;
+ }
 
 /*********************************************************************************************************************
 
